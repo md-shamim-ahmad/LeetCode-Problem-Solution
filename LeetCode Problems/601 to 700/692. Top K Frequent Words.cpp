@@ -10,9 +10,6 @@ public:
             frequent.push_back({it.first, it.second});            
         }
         sort(frequent.begin(), frequent.end(), [](auto a, auto b){
-            return a.first < b.first;
-        });
-        sort(frequent.begin(), frequent.end(), [](auto a, auto b){
             if (a.second == b.second)
                 return a.first < b.first;
             return a.second > b.second;
