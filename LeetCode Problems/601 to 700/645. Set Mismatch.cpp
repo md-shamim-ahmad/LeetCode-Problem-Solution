@@ -1,34 +1,20 @@
 class Solution {
 public:
-    bool bs (vector<int>& arr, int val) {
-        int f = 0, l = arr.size() - 1;
-        while (f <= l) {
-            int m = (l + f) / 2;
-            if (arr[m] == val)
-                return true;
-            else if (arr[m] < val)
-                f = m + 1;
-            else
-                l = m - 1;
-        }
-        return false;
-    }
-
     vector<int> findErrorNums(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        int repeat, value;
-        for (int i = 0; i < nums.size() - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                repeat = nums[i];
+        int n = nums.size();
+        vector<int> vct(n + 1, 0);
+        for (int i = 1; i <= n; i++) {
+            vct[nums[i - 1]]++;
+        }
+        int missing_num, duplicate_num;
+        for (int i = 1; i <= n; i++) {
+            if(vct[i] == 0) {
+                missing_num = i;
             }
-        }        
-        for (int i = 0; i < nums.size(); i++) {
-            if (!bs(nums, (i + 1))) {
-                value = i + 1;
-                break;
+            if(vct[i] > 1) {
+                duplicate_num = i;
             }
         }
-        return {repeat, value};
+        return {duplicate_num, missing_num};
     }
 };
-
