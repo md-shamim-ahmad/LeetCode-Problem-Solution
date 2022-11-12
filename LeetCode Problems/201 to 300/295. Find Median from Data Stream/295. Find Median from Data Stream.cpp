@@ -5,21 +5,13 @@ public:
     MedianFinder() {
         list.clear();
     }
-    
     void addNum(int num) {        
-        list.insert(num);          
-        if(list.size() % 2)
-            ++median;
-        if(num < *median) 
-            --median;
+        list.insert(num);
+        if(list.size() % 2) ++median;
+        if(num < *median) --median;
     }
-    
     double findMedian() {
-        if(list.size() % 2 != 0)
-            return *(median);
-        int a = *median;
-        int b = *next(median);
-        cout << a << " " << b << '\n';
-        return (a + b) / 2.0;
+        if(list.size() % 2 != 0) return *(median);
+        return (*median + *next(median)) / 2.0;
     }
 };
