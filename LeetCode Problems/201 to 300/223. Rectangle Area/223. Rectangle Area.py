@@ -9,5 +9,4 @@ class Solution:
         overlapY = min(by2, ay2) - max(ay1, by1)
         overlapY = max(overlapY, 0)
         
-        return areaA + areaB - (overlapX * overlapY)
-    
+        return areaA + areaB - (overlapX * overlapY)    
