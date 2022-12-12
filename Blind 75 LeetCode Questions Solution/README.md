@@ -13,23 +13,23 @@
 |11|[39. Combination Sum](https://leetcode.com/problems/combination-sum) | ❌ [Combination Sum](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/39.%20Combination%20Sum) | **Array, Backtracking**|${\color{orange}{Medium}}$
 |12|[48. Rotate Image](https://leetcode.com/problems/rotate-image) |✔️ [Rotate Image](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/48.%20Rotate%20Image) | **Array, Matrix**|${\color{orange}{Medium}}$
 |13|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams) |✔️ [Group Anagrams](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/49.%20Group%20Anagrams) |**Array, Hash Table, String** |${\color{orange}{Medium}}$
-|14|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |[]() | |
-|15|[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix) |[]() | |
-|16|[55. Jump Game](https://leetcode.com/problems/jump-game) |[]() | |
-|17|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals) |[]() | |
-|18|[57. Insert Interval](https://leetcode.com/problems/insert-interval) |[]() | |
-|19|[52. Unique Paths](https://leetcode.com/problems/unique-paths) |[]() | |
-|20|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |[]() | |
-|21|[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) |[]() | |
-|22|[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) |[]() | |
-|23|[79. Word Search](https://leetcode.com/problems/word-search) |[]() | |
-|24|[91. Decode Ways](https://leetcode.com/problems/decode-ways) |[]() | |
-|25|[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) |[]() | |
-|26|[100. Same Tree](https://leetcode.com/problems/same-tree) |[]() | |
-|27|[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) |[]() | |
-|28|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) |[]() | |
-|29|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |[]() | |
-|30|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |[]() | |
+|14|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
+|15|[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix) |[]() |**Array, Matrix**|${\color{orange}{Medium}}$
+|16|[55. Jump Game](https://leetcode.com/problems/jump-game) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
+|17|[56. Merge Intervals](https://leetcode.com/problems/merge-intervals) |[]() | **Array**|${\color{orange}{Medium}}$
+|18|[57. Insert Interval](https://leetcode.com/problems/insert-interval) |[]() |**Array** |${\color{orange}{Medium}}$
+|19|[62. Unique Paths](https://leetcode.com/problems/unique-paths) |[]() |**Math, Dynamic Programming** |${\color{orange}{Medium}}$
+|20|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |[]() |**Math, Dynamic Programming** |${\color{green}{Easy}}$
+|21|[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) |[]() |**Array, Hash Table** |${\color{orange}{Medium}}$
+|22|[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) |[]() |**Hash Table, String** |${\color{red}{Hard}}$
+|23|[79. Word Search](https://leetcode.com/problems/word-search) |[]() |**Array, Backtracking** |${\color{orange}{Medium}}$
+|24|[91. Decode Ways](https://leetcode.com/problems/decode-ways) |[]() | **String, Dynamic Programming**|${\color{orange}{Medium}}$
+|25|[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) |[]() | **Tree**|${\color{orange}{Medium}}$
+|26|[100. Same Tree](https://leetcode.com/problems/same-tree) |[]() | **Tree**|${\color{green}{Easy}}$
+|27|[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) |[]() | **Tree**|${\color{orange}{Medium}}$
+|28|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) |[]() |**Tree, Depth-First Search** |${\color{green}{Easy}}$
+|29|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |[]() |**Array, Tree** |${\color{orange}{Medium}}$
+|30|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |[]() |**Array, Dynamic Programming** |${\color{green}{Easy}}$
 |31|[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) |[]() | |
 |32|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome) |[]() | |
 |33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) |[]() | |
