@@ -2,17 +2,17 @@
 | :---:   | :---:   | :---: | :---: |:---: |
 |1 |[1. Two Sum](https://leetcode.com/problems/two-sum/) | ✔️ [Two Sum](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/1.%20Two%20Sum) | **Array, Hash Table**| ${\color{green}{Easy}}$
 |2 |[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |✔️ [Longest Substring Without Repeating Characters](https://github.com/ahmmed-sde/LeetCode-Problem-Solution/tree/patch-1/LeetCode%20Problems/1%20to%20100/3.%20Longest%20Substring%20Without%20Repeating%20Characters)|**Hash Table, String, Sliding Window** | ${\color{orange}{Medium}}$
-|3 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |[]() | |
-|4 |[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) |[]() | |
-|5 |[15. 3Sum](https://leetcode.com/problems/3sum) |[]() | |
-|6 |[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) |[]() | |
-|7 |[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses) |[]() | |
-|8 |[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |[]() | |
-|9 |[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |[]() | |
-|10|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) |[]() | |
-|11|[39. Combination Sum](https://leetcode.com/problems/combination-sum) |[]() | |
-|12|[48. Rotate Image](https://leetcode.com/problems/rotate-image) |[]() | |
-|13|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams) |[]() | |
+|3 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |✔️ [Longest Palindromic Substring](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/5.%20Longest%20Palindromic%20Substring) | **String, Dynamic Programming** |${\color{orange}{Medium}}$
+|4 |[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) |✔️ [Container With Most Water](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/11.%20Container%20With%20Most%20Water) |**Array, Two Pointers, Greedy** |${\color{orange}{Medium}}$
+|5 |[15. 3Sum](https://leetcode.com/problems/3sum) |✔️ [3Sum](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/15.%203Sum) | **Array, Two Pointers**|${\color{orange}{Medium}}$
+|6 |[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) |✔️ [Remove Nth Node From End of List](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/19.%20Remove%20Nth%20Node%20From%20End%20of%20List) | **Linked List, Two Pointers**|${\color{orange}{Medium}}$
+|7 |[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses) |✔️ [Valid Parentheses](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/20.%20Valid%20Parentheses) | **String, Stack**|${\color{green}{Easy}}$
+|8 |[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |✔️ [Merge Two Sorted Lists](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/21.%20Merge%20Two%20Sorted%20Lists) |**Linked List, Recursion** |${\color{green}{Easy}}$
+|9 |[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |✔️ [Merge k Sorted Lists](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/23.%20Merge%20k%20Sorted%20Lists) | **Linked List, Divide and Conquer**|${\color{red}{Hard}}$
+|10|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) |✔️ [Search in Rotated Sorted Array](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/33.%20Search%20in%20Rotated%20Sorted%20Array) | **Array, Binary Search**|${\color{orange}{Medium}}$
+|11|[39. Combination Sum](https://leetcode.com/problems/combination-sum) | ❌ [Combination Sum](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/39.%20Combination%20Sum) | **Array, Backtracking**|${\color{orange}{Medium}}$
+|12|[48. Rotate Image](https://leetcode.com/problems/rotate-image) |✔️ [Rotate Image](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/48.%20Rotate%20Image) | **Array, Matrix**|${\color{orange}{Medium}}$
+|13|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams) |✔️ [Group Anagrams](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/49.%20Group%20Anagrams) |**Array, Hash Table, String** |${\color{orange}{Medium}}$
 |14|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |[]() | |
 |15|[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix) |[]() | |
 |16|[55. Jump Game](https://leetcode.com/problems/jump-game) |[]() | |
