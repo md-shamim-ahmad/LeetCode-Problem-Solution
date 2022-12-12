@@ -30,16 +30,16 @@
 |28|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) |[]() |**Tree, Depth-First Search** |${\color{green}{Easy}}$
 |29|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |[]() |**Array, Tree** |${\color{orange}{Medium}}$
 |30|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |[]() |**Array, Dynamic Programming** |${\color{green}{Easy}}$
-|31|[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) |[]() | |
-|32|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome) |[]() | |
-|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) |[]() | |
-|34|[133. Clone Graph](https://leetcode.com/problems/clone-graph) |[]() | |
-|35|[139. Word Break](https://leetcode.com/problems/word-break) |[]() | |
-|36|[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) |[]() | |
-|37|[143. Reorder List](https://leetcode.com/problems/reorder-list) |[]() | |
-|38|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |[]() | |
-|39|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[]() | |
-|40|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits) |[]() | |
+|31|[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) |[]() |**Dynamic Programming, Tree** |${\color{red}{Hard}}$
+|32|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome) |[]() |**Two Pointers, String** |${\color{green}{Easy}}$
+|33|[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) |[]() |**Hash Table, Array, Union Find** |${\color{orange}{Medium}}$
+|34|[133. Clone Graph](https://leetcode.com/problems/clone-graph) |[]() |**Graph** |${\color{orange}{Medium}}$
+|35|[139. Word Break](https://leetcode.com/problems/word-break) |[]() | **Trie, String, DP, Hash Table**|${\color{orange}{Medium}}$
+|36|[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) |[]() |**Linked List** |${\color{green}{Easy}}$
+|37|[143. Reorder List](https://leetcode.com/problems/reorder-list) |[]() | **Linked List, Two Pointers**|${\color{orange}{Medium}}$
+|38|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |[]() |**Dynamic Programming, Array** |${\color{orange}{Medium}}$
+|39|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[]() |**Binary Search, Array** |${\color{orange}{Medium}}$
+|40|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits) |[]() |**Divide and Conquer, Bit Manipulation** |${\color{green}{Easy}}$
 |41|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) |[]() | |
 |42|[198. House Robber](https://leetcode.com/problems/house-robber) |[]() | |
 |43|[200. Number of Islands](https://leetcode.com/problems/number-of-islands) |[]() | |
