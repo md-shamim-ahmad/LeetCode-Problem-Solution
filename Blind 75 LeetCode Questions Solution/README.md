@@ -50,16 +50,16 @@
 |48|[212. Word Search II](https://leetcode.com/problems/word-search-ii) |[]() |**String, Trie, Array** |${\color{red}{Hard}}$
 |49|[213. House Robber II](https://leetcode.com/problems/house-robber-ii) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
 |50|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate) |[]() |**Array, Hash Table** |${\color{green}{Easy}}$
-|51|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) |[]() | |
-|52|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[]() | |
-|53|[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) |[]() | |
-|54|[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) |[]() | |
-|55|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) |[]() | |
-|56|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram) |[]() | |
+|51|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) |[]() |**Tree** |${\color{green}{Easy}}$
+|52|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[]() | **Tree**|${\color{orange}{Medium}}$
+|53|[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) |[]() | **Tree**|${\color{orange}{Medium}}$
+|54|[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) |[]() |**Tree** |${\color{orange}{Medium}}$
+|55|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) |[]() |**Array, Prefix Sum** |${\color{orange}{Medium}}$
+|56|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram) |[]() | **String, Hash Table**|${\color{green}{Easy}}$
 |57|[. Meeting Rooms](https://leetcode.com/problems/meeting-rooms) |[]() | |
 |58|[. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) |[]() | |
 |59|[. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree) |[]() | |
-|60|[268. Missing Number](https://leetcode.com/problems/missing-number) |[]() | |
+|60|[268. Missing Number](https://leetcode.com/problems/missing-number) |[]() |**Array, Math** |${\color{green}{Easy}}$
 |61|[. Alien Dictionary](https://leetcode.com/problems/alien-dictionary) |[]() | |
 |62|[. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings) |[]() | |
 |63|[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) |[]() | |
