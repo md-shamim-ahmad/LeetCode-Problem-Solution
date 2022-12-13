@@ -62,17 +62,17 @@
 |60|[268. Missing Number](https://leetcode.com/problems/missing-number) |[]() |**Array, Math** |${\color{green}{Easy}}$
 |61|[. Alien Dictionary](https://leetcode.com/problems/alien-dictionary) |[]() | |
 |62|[. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings) |[]() | |
-|63|[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) |[]() | |
-|64|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |[]() | |
-|65|[322. Coin Change](https://leetcode.com/problems/coin-change) |[]() | |
+|63|[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) |[]() |**Heap (Priority Queue), Design** |${\color{red}{Hard}}$
+|64|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |[]() | **Array**|${\color{orange}{Medium}}$
+|65|[322. Coin Change](https://leetcode.com/problems/coin-change) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
 |66|[. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) |[]() | |
-|67|[338. Counting Bits](https://leetcode.com/problems/counting-bits) |[]() | |
-|68|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) |[]() | |
-|69|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) |[]() | |
-|70|[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) |[]() | |
-|71|[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) |[]() | |
-|72|[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) |[]() | |
-|73|[449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst) |[]() | |
-|74|[572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) |[]() | |
-|75|[647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |[]() | |
-|76|[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) |[]() | |
+|67|[338. Counting Bits](https://leetcode.com/problems/counting-bits) |[]() |**Dynamic Programming** |${\color{green}{Easy}}$
+|68|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) |[]() |**Array, Divide and Conquer** |${\color{orange}{Medium}}$
+|69|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) |[]() |**Math, Bit Manipulation** |${\color{orange}{Medium}}$
+|70|[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) |[]() |**Array, Matrix** |${\color{orange}{Medium}}$
+|71|[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) |[]() | **String, Sliding Window**|${\color{orange}{Medium}}$
+|72|[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) |[]() |**Array, Dynamic Programming, Greedy** |${\color{orange}{Medium}}$
+|73|[449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst) |[]() |**Tree** |${\color{orange}{Medium}}$
+|74|[572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) |[]() |**Tree** |${\color{green}{Easy}}$
+|75|[647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |[]() |**String, Dynamic Programming** |${\color{orange}{Medium}}$
+|76|[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) |[]() |**String, Dynamic Programming** |${\color{orange}{Medium}}$
