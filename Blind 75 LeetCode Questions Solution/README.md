@@ -40,16 +40,16 @@
 |38|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) |[]() |**Dynamic Programming, Array** |${\color{orange}{Medium}}$
 |39|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[]() |**Binary Search, Array** |${\color{orange}{Medium}}$
 |40|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits) |[]() |**Divide and Conquer, Bit Manipulation** |${\color{green}{Easy}}$
-|41|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) |[]() | |
-|42|[198. House Robber](https://leetcode.com/problems/house-robber) |[]() | |
-|43|[200. Number of Islands](https://leetcode.com/problems/number-of-islands) |[]() | |
-|44|[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |[]() | |
-|45|[207. Course Schedule](https://leetcode.com/problems/course-schedule) |[]() | |
-|46|[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) |[]() | |
-|47|[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) |[]() | |
-|48|[212. Word Search II](https://leetcode.com/problems/word-search-ii) |[]() | |
-|49|[213. House Robber II](https://leetcode.com/problems/house-robber-ii) |[]() | |
-|50|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate) |[]() | |
+|41|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) |[]() |**Divide and Conquer, Bit Manipulation** |${\color{green}{Easy}}$
+|42|[198. House Robber](https://leetcode.com/problems/house-robber) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
+|43|[200. Number of Islands](https://leetcode.com/problems/number-of-islands) |[]() |**Array, Union Find** |${\color{orange}{Medium}}$
+|44|[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |[]() |**Linked List** |${\color{green}{Easy}}$
+|45|[207. Course Schedule](https://leetcode.com/problems/course-schedule) |[]() | **Graph**|${\color{orange}{Medium}}$
+|46|[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) |[]() |**Hash Table, String, Trie** |${\color{orange}{Medium}}$
+|47|[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) |[]() |**String, Trie** |${\color{orange}{Medium}}$
+|48|[212. Word Search II](https://leetcode.com/problems/word-search-ii) |[]() |**String, Trie, Array** |${\color{red}{Hard}}$
+|49|[213. House Robber II](https://leetcode.com/problems/house-robber-ii) |[]() |**Array, Dynamic Programming** |${\color{orange}{Medium}}$
+|50|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate) |[]() |**Array, Hash Table** |${\color{green}{Easy}}$
 |51|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) |[]() | |
 |52|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |[]() | |
 |53|[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) |[]() | |
