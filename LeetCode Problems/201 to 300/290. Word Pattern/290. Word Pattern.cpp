@@ -1,4 +1,5 @@
 class Solution {
+private:
     vector<string> list;    
     void generateWord(string &s) {
         string sub_s="";
