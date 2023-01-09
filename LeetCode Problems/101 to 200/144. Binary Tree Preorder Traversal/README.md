@@ -1,5 +1,7 @@
 # 144. Binary Tree Preorder Traversal
-Given the ```root``` of a binary tree, return the preorder traversal of its nodes' values.<br><br>
+### [Original Question link](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+Given the ```root``` of a binary tree, return the preorder traversal of its nodes' values.
+<br><br>
 
 #### Example 1:
 ![alt text](https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg)
