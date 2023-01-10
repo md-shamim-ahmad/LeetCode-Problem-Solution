@@ -5,14 +5,19 @@
 </p>
 
 <p align="center">
+  <p align="center">
     <img src="https://img.shields.io/badge/update-weekly-green.svg"alt="">
 <!--   <img src="https://badgen.net/badgesize/normal/amio/emoji.json/master/emoji-compact.json" alt=""> -->
 <!--   <img src="https://img.shields.io/badge/progress-1835%20%2F%201835-ff69b4.svg"alt=""> -->
-<!--   <img src="https://badgen.net/github/watchers/micromatch/micromatch" alt=""> -->
+  <img src="https://badgen.net/github/watchers/micromatch/micromatch" alt="">
+    </p>
+    <p align="center">
   <img src="https://img.shields.io/badge/language-black.svg" alt="">
-  <img src="https://badgen.net/badge/Code/C++/blue?icon=https://simpleicons.org/icons/cplusplus.svg&labelColor=cyan&label" alt ="">
-  <img src="https://badgen.net/badge/Code/Java/blue?icon=https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg&labelColor=cyan&label" alt ="">
-  <img src="https://badgen.net/badge/Code/Python/blue?icon=https://simpleicons.org/icons/python.svg&labelColor=cyan&label">
+  <img src="https://badgen.net/badge/Code/C++/blue?icon=https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg&labelColor=cyan&label"> 
+  <img src="https://badgen.net/badge/Code/Java/blue?icon=https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg&labelColor=cyan&label">  
+  <img src="https://badgen.net/badge/Code/Python/blue?icon=https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg&labelColor=cyan&label">
+  <img src="https://badgen.net/badge/Code/Kotlin/blue?icon=https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg&labelColor=cyan&label"> 
+  </p>
 </p>
 
 ## Code
