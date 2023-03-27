@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/update-weekly-green.svg" alt="">
   <!-- <img src="https://badgen.net/badgesize/normal/amio/emoji.json/master/emoji-compact.json" alt=""> -->
   <!-- <img src="https://img.shields.io/badge/progress-1835%20%2F%201835-ff69b4.svg"alt=""> -->
-  <img src="https://badgen.net/github/watchers/micromatch/micromatch" alt="">
+  <!-- <img src="https://badgen.net/github/watchers/micromatch/micromatch" alt=""> --> 
 </p>
     <p align="center">
         <img src="https://img.shields.io/badge/language-black.svg" alt=""> <br>
