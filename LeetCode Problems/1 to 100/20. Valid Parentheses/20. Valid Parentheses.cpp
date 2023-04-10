@@ -1,23 +1,17 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> arr;
+        stack<char> stc;
         for (int i = 0; i < s.size(); i++) {
             if (s[i] == '(' || s[i] == '{' || s[i] == '[') {
-                arr.push(s[i]);
-                continue;
+                stc.push(s[i]); continue;
             }
-            if (arr.size() == 0)
-                return false;
-            if (s[i] == ')' && arr.top() == '(')
-                arr.pop();
-            else if (s[i] == '}' && arr.top() == '{')
-                arr.pop();
-            else if (s[i] == ']' && arr.top() == '[')
-                arr.pop();
-            else 
-                return false;
+            if(stc.empty()) return false;
+            else if (s[i] == ')' && stc.top() != '(') return false;                
+            else if (s[i] == '}' && stc.top() != '{') return false;
+            else if (s[i] == ']' && stc.top() != '[') return false;
+            stc.pop();
         }
-        return arr.size() == 0 ? true : false;
+        return stc.empty();
     }
 };
