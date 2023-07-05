@@ -1,43 +1,49 @@
-# Zigzag Conversion
-## [Original Question Link](https://leetcode.com/problems/zigzag-conversion/)
+# [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
-The string ```"PAYPALISHIRING"``` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
-```
-P   A   H   N
+<div class="_1l1MA" data-track-load="description_content"><p>The string <code>"PAYPALISHIRING"</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>
+
+<pre>P   A   H   N
 A P L S I I G
 Y   I   R
-```
-And then read line by line: ```"PAHNAPLSIIGYIR"```
+</pre>
 
-Write the code that will take a string and make this conversion given a number of rows:
-```
-string convert(string s, int numRows);
-```
+<p>And then read line by line: <code>"PAHNAPLSIIGYIR"</code></p>
 
-#### Example 1:
-```
-Input: s = "PAYPALISHIRING", numRows = 3
-Output: "PAHNAPLSIIGYIR"
-```
+<p>Write the code that will take a string and make this conversion given a number of rows:</p>
 
-#### Example 2:
-```
-Input: s = "PAYPALISHIRING", numRows = 4
-Output: "PINALSIGYAHRPI"
-Explanation:
+<pre>string convert(string s, int numRows);
+</pre>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre><strong>Input:</strong> s = "PAYPALISHIRING", numRows = 3
+<strong>Output:</strong> "PAHNAPLSIIGYIR"
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre><strong>Input:</strong> s = "PAYPALISHIRING", numRows = 4
+<strong>Output:</strong> "PINALSIGYAHRPI"
+<strong>Explanation:</strong>
 P     I    N
 A   L S  I G
 Y A   H R
 P     I
-```
+</pre>
 
-#### Example 3:
-```
-Input: s = "A", numRows = 1
-Output: "A"
-```
+<p><strong class="example">Example 3:</strong></p>
 
-#### Constraints:
-* ```1 <= s.length <= 1000```
-* ```s``` consists of English letters (lower-case and upper-case), ```','``` and ```'.'```.
-* ```1 <= numRows <= 1000```
+<pre><strong>Input:</strong> s = "A", numRows = 1
+<strong>Output:</strong> "A"
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+	<li><code>s</code> consists of English letters (lower-case and upper-case), <code>','</code> and <code>'.'</code>.</li>
+	<li><code>1 &lt;= numRows &lt;= 1000</code></li>
+</ul>
+</div>
