@@ -1,22 +1,28 @@
 # [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 
-Given two strings ```needle``` and ```haystack```, return the index of the first occurrence of ```needle``` in ```haystack```, or ```-1``` if ```needle``` is not part of ```haystack```.
+<div class="_1l1MA" data-track-load="description_content"><p>Given two strings <code>needle</code> and <code>haystack</code>, return the index of the first occurrence of <code>needle</code> in <code>haystack</code>, or <code>-1</code> if <code>needle</code> is not part of <code>haystack</code>.</p>
 
-#### Example 1:
-```
-Input: haystack = "sadbutsad", needle = "sad"
-Output: 0
-Explanation: "sad" occurs at index 0 and 6.
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre><strong>Input:</strong> haystack = "sadbutsad", needle = "sad"
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> "sad" occurs at index 0 and 6.
 The first occurrence is at index 0, so we return 0.
-```
+</pre>
 
-#### Example 2:
-```
-Input: haystack = "leetcode", needle = "leeto"
-Output: -1
-Explanation: "leeto" did not occur in "leetcode", so we return -1.
-```
+<p><strong class="example">Example 2:</strong></p>
 
-#### Constraints:
-* 1 <= ```haystack.length```, ```needle.length``` <= $10^4$
-* ```haystack``` and ```needle``` consist of only lowercase English characters.
+<pre><strong>Input:</strong> haystack = "leetcode", needle = "leeto"
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> "leeto" did not occur in "leetcode", so we return -1.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= haystack.length, needle.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>haystack</code> and <code>needle</code> consist of only lowercase English characters.</li>
+</ul>
+</div>
