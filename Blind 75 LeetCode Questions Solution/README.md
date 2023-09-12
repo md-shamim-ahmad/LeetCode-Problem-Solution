@@ -1,3 +1,12 @@
+<div align="center">
+    <img src="https://assets.leetcode.com/static_assets/others/LeetCode_75static_cover_picture.png" height=250px>
+    <br></br>
+    <h1>BLIND-75 QUESTION FROM</h1>
+    <h1><img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg"></h1>
+</div>
+<br><br><br>
+<div align="center">
+
 |Serial Number|Problem Link      | Solution Link      | Problem tags |Problem Type|
 | :---:   | :---:   | :---: | :---: |:---: |
 |1 |[1. Two Sum](https://leetcode.com/problems/two-sum/) | ✔️ [Two Sum](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1%20to%20100/1.%20Two%20Sum) | **Array, Hash Table**| ${\color{green}{Easy}}$
@@ -76,3 +85,5 @@
 |74|[572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) |❌ [Subtree of Another Tree](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/501%20to%20600/572.%20Subtree%20of%20Another%20Tree) |**Tree** |${\color{green}{Easy}}$
 |75|[647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |❌ [Palindromic Substrings](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/601%20to%20700/647.%20Palindromic%20Substrings) |**String, Dynamic Programming** |${\color{orange}{Medium}}$
 |76|[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) |✔️ [Longest Common Subsequence](https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/tree/main/LeetCode%20Problems/1101%20to%201200/1143.%20Longest%20Common%20Subsequence) |**String, Dynamic Programming** |${\color{orange}{Medium}}$
+
+</div>
