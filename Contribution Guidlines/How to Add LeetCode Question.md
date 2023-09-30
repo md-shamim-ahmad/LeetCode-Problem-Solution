@@ -5,7 +5,7 @@
  * ```right click``` on ```<div class="elfjs"```
  * ```click``` on ```Edit as HTML```
  * copy the full text
- * create a ```README.md``` file into the problem directory.
+ * create a ```README.md``` file into the problem directory which you create [```here```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidlines/How%20to%20Add%20a%20new%20Solution%20Code.md).
  * add ```# [problem name](problem url)```
  * And last paste the HTML text which you copy.
 
