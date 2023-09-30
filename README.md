@@ -34,9 +34,10 @@ Feel free to open an [issue](https://github.com/Md-Shamim-Ahmmed/LeetCode-Proble
 
 ## Contribution Guidlines :page_with_curl:
 ### How to contribute? :eyes:
-1. Fork the repository
-2. Make the desired changes (add/delete/modify)
-3. Make a pull request
+1. See [```Guidlines```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidlines/How%20to%20Add%20a%20new%20Solution%20Code.md)
+2. Fork the repository
+4. Make the desired changes (add/delete/modify)
+5. Make a pull request
 
 ### When to contribute? :eyes:
 1. If there is no solution to a problem in either `C++` or `Java` or `Python` or `any other language`in the main branch
