@@ -1,9 +1,9 @@
 public class Solution{
     public static int search(int[] arr, int target) {
-        return find(arr, target, 0, arr.length-1);
+        return findRequiredElement(arr, target, 0, arr.length-1);
     }
 
-    static int find(int[] arr, int target, int start, int end){
+    static int findRequiredElement(int[] arr, int target, int start, int end){
 
         if (start<=end) {
             int mid = start + (end - start) / 2;
