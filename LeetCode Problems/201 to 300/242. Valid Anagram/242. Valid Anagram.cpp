@@ -1,28 +1,26 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-
-if(s.size()!= t.size()){
-    return false;
-}
-
-        int alphabets[26]= {0};
-
-        for(int i= 0; i<s.size(); i++){
-            alphabets[s[i]-'a']++;
-            alphabets[t[i]- 'a']--;
+        if (s.size() != t.size()) {
+            return false;
         }
 
-bool ans= true;
+        int alphabets[26] = {0};
 
-for(int i= 0; i<26; i++){
+        for (int i = 0; i < s.size(); i++) {
+            alphabets[s[i] - 'a']++;
+            alphabets[t[i] - 'a']--;
+        }
 
-    if(alphabets[i]){
-        ans= false;
-        break;
-    }
-}
+        bool ans = true;
 
-return ans;
+        for (int i = 0; i < 26; i++) {
+            if (alphabets[i]) {
+                ans = false;
+                break;
+            }
+        }
+
+        return ans;
     }
 };
