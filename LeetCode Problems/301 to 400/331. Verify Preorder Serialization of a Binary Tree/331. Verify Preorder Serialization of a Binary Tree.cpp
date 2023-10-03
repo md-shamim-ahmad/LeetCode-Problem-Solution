@@ -1,34 +1,33 @@
 class Solution {
 public:
     bool isValidSerialization(string a) {
-        int nodes = 0;
-        int nulls = 0;
-        int i = 0;
+        int i,j,k,c=1,s=0;
+        if(a.size()==0 )
+        return 1;
 
-        // Split the string into tokens using ',' as the delimiter
-        vector<string> tokens;
-        stringstream ss(a);
-        string token;
-        while (getline(ss, token, ',')) {
-            tokens.push_back(token);
-        }
+        if(a[0]=='#' and a.size()!=1)
+        return 0;
 
-        for (i = 0; i < tokens.size(); ++i) {
-            // If we encounter a null marker '#', increment nulls.
-            if (tokens[i] == "#") {
-                nulls++;
-            } else {
-                // If we encounter a non-null node, increment nodes.
-                nodes++;
+        for(i=0;i<a.size();i+=1){
+            c-=1;
+            if(c<0)
+            return 0;
+
+            if(a[i]!='#'){
+                c+=2;
             }
-
-            // If the number of nulls exceeds nodes at any point, it's not valid.
-            if (nulls > nodes) {
-                return false;
+            
+            
+            i++;
+            while(i<a.size() and a[i]!=','){
+                i++;
             }
         }
+        cout<<c;
 
-        // In a valid serialization, the number of nulls should be one more than the number of nodes at the end.
-        return (nulls == nodes + 1);
+        if(c==0)return 1;
+
+        return 0;
+        
     }
 };
