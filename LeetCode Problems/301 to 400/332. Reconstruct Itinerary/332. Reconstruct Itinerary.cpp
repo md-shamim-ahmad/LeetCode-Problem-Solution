@@ -1,7 +1,7 @@
 class Solution
 {
 public:
-    vector<string> findItinerary(vector<vector<string>> &tickets)
+    vector<string>  findItinerary(vector<vector<string>> &tickets)
     {
         unordered_map<string, priority_queue<string, vector<string>, greater<string>>> graph;
         for (const auto &ticket : tickets)
