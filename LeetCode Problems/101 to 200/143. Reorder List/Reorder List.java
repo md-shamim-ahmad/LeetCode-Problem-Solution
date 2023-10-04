@@ -1,4 +1,4 @@
-public class ReorderList {
+class Solution {
     public void reorderList(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
@@ -33,5 +33,4 @@ public class ReorderList {
         }
         return prev;
     }
-
 }
