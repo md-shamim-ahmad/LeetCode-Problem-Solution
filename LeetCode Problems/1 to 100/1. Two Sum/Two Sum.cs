@@ -14,14 +14,6 @@ namespace Two_Sum
            
         }
 
-        /// <summary>
-        /// Finds the first Pair of numbers that sum upto the sum provided
-        /// Time Complexity - O(n)
-        /// Space Complexity - O(n)
-        /// </summary>
-        /// <param name="arr">Array</param>
-        /// <param name="sum">Sum of a Pair of Numbers</param>
-        /// <exception cref="ArgumentException"></exception>
         static void findTwoSum(int[] arr, int sum)
         {
             if (arr == null || arr.Length == 0)
