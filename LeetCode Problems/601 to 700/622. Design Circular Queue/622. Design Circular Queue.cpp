@@ -1,6 +1,7 @@
 class MyCircularQueue {
     vector<int> arr;
     int size, head = 0, tail = -1;
+
 public:
     MyCircularQueue(int k) {
         arr.resize(k);
@@ -8,7 +9,7 @@ public:
     }
 
     bool enQueue(int value) {
-        if (isFull()) 
+        if (isFull())
             return false;
         tail = (tail + 1) % size;
         arr[tail] = value;
@@ -16,30 +17,22 @@ public:
     }
 
     bool deQueue() {
-        if (isEmpty()) 
+        if (isEmpty())
             return false;
         if (head == tail)
             head = 0, tail = -1;
-        else 
+        else
             head = (head + 1) % size;
         return true;
     }
 
-    int Front() {
-        return isEmpty() ? -1 : arr[head];
-    }
+    int Front() { return isEmpty() ? -1 : arr[head]; }
 
-    int Rear() {
-        return isEmpty() ? -1 : arr[tail];
-    }
+    int Rear() { return isEmpty() ? -1 : arr[tail]; }
 
-    bool isEmpty() {
-        return tail == -1;
-    }
+    bool isEmpty() { return tail == -1; }
 
-    bool isFull() {
-        return !isEmpty() && (tail + 1) % size == head;
-    }
+    bool isFull() { return !isEmpty() && (tail + 1) % size == head; }
 };
 
 /**

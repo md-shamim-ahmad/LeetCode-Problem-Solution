@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isMonotonic(vector<int>& nums) {
+    bool isMonotonic(vector<int> &nums) {
         bool check = true;
         for (int i = 1; i < nums.size(); i++) {
             if (nums[i - 1] >= nums[i])
@@ -10,7 +10,8 @@ public:
                 break;
             }
         }
-        if (check == true) return check;
+        if (check == true)
+            return check;
         for (int i = 1; i < nums.size(); i++) {
             if (nums[i - 1] <= nums[i])
                 check = true;

@@ -6,7 +6,7 @@ public:
         for (auto t: transactions) {
             string tmp;
             vector<string> tt;
-            for (auto c:t) {
+            for (auto c: t) {
                 if (c == ',') {
                     tt.push_back(tmp);
                     tmp = "";
@@ -17,20 +17,22 @@ public:
             trans.push_back(tt);
         }
         for (int i = 0; i < trans.size(); i++) {
-            if (stoi(trans[i][2]) > 1000) invalid[i] = true;
+            if (stoi(trans[i][2]) > 1000)
+                invalid[i] = true;
             for (int j = i + 1; j < trans.size(); j++) {
-                if ((trans[i][0] == trans[j][0]) && abs(stoi(trans[i][1]) - stoi(trans[j][1])) <= 60 &&
+                if ((trans[i][0] == trans[j][0]) &&
+                    abs(stoi(trans[i][1]) - stoi(trans[j][1])) <= 60 &&
                     (trans[i][3] != trans[j][3])) {
                     invalid[i] = true;
                     invalid[j] = true;
-
                 }
             }
         }
 
         vector<string> res;
         for (int i = 0; i < trans.size(); i++) {
-            if (invalid[i]) res.push_back(transactions[i]);
+            if (invalid[i])
+                res.push_back(transactions[i]);
         }
         return res;
     }

@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
+    vector<vector<int>> threeSum(vector<int> &nums) {
         sort(nums.begin(), nums.end());
         set<vector<int>> arr;
         vector<vector<int>> ans;
@@ -11,8 +11,7 @@ public:
                 if (nums[i] + nums[l] + nums[r] == 0) {
                     arr.insert({nums[i], nums[l], nums[r]});
                     l++, r--;
-                }
-                else if (nums[i] + nums[l] + nums[r] > 0) {
+                } else if (nums[i] + nums[l] + nums[r] > 0) {
                     r--;
                 } else {
                     l++;
@@ -25,4 +24,3 @@ public:
         return ans;
     }
 };
-

@@ -8,7 +8,5 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) {
-        
-    }
+    bool hasCycle(ListNode *head) {}
 };

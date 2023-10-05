@@ -10,7 +10,5 @@
  */
 class Solution {
 public:
-    void reorderList(ListNode* head) {
-        
-    }
+    void reorderList(ListNode *head) {}
 };

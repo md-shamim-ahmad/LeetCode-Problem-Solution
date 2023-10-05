@@ -1,6 +1,4 @@
 class Solution {
 public:
-    int uniquePaths(int m, int n) {
-        
-    }
+    int uniquePaths(int m, int n) {}
 };

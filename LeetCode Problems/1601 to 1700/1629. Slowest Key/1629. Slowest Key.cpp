@@ -1,14 +1,15 @@
-bool SortBaseOnFirstElement(const pair<char, int> &a, const pair<char, int> &b) {
+bool SortBaseOnFirstElement(const pair<char, int> &a,
+                            const pair<char, int> &b) {
     return a.first < b.first;
 }
 
-bool SortBaseOnSecondElement(const pair<char, int> &a, const pair<char, int> &b) {
+bool SortBaseOnSecondElement(const pair<char, int> &a,
+                             const pair<char, int> &b) {
     return a.second < b.second;
 }
 class Solution {
 public:
-
-    char slowestKey(vector<int>& releaseTimes, string keysPressed) {
+    char slowestKey(vector<int> &releaseTimes, string keysPressed) {
         int n = keysPressed.size();
         vector<pair<char, int>> arr;
         arr.emplace_back(keysPressed[0], releaseTimes[0]);

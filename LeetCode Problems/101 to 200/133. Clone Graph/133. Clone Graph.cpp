@@ -21,7 +21,5 @@ public:
 
 class Solution {
 public:
-    Node* cloneGraph(Node* node) {
-        
-    }
+    Node *cloneGraph(Node *node) {}
 };

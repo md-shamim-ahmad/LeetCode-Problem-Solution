@@ -3,7 +3,7 @@ public:
     int partitionString(string s) {
         map<char, int> mp;
         int ans = 1;
-        for(char ch : s) {            
+        for (char ch: s) {
             if (mp[ch] >= 1) {
                 ans++;
                 mp.clear();

@@ -1,6 +1,4 @@
 class Solution {
 public:
-    int numIslands(vector<vector<char>>& grid) {
-        
-    }
+    int numIslands(vector<vector<char>> &grid) {}
 };

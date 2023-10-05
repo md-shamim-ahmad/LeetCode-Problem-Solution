@@ -1,6 +1,4 @@
 class Solution {
 public:
-    bool isPalindrome(string s) {
-        
-    }
+    bool isPalindrome(string s) {}
 };

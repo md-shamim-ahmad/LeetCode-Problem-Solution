@@ -1,6 +1,4 @@
 class Solution {
 public:
-    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        
-    }
+    int eraseOverlapIntervals(vector<vector<int>> &intervals) {}
 };

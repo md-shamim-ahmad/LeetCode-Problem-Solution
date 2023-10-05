@@ -3,17 +3,17 @@ public:
     vector<string> letterCombinations(string digits) {
         if (digits.empty())
             return {};
-        vector<string> str{"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        vector<string>comb;
+        vector<string> str{"abc", "def", "ghi", "jkl",
+                           "mno", "pqrs", "tuv", "wxyz"};
+        vector<string> comb;
         if (digits.size() == 1) {
-            string s = str[digits[0] - '0' - 2];            
+            string s = str[digits[0] - '0' - 2];
             for (int i = 0; i < s.size(); i++) {
                 string word;
                 word.push_back(s[i]);
                 comb.push_back(word);
             }
-        }
-        else if (digits.size() == 2) {
+        } else if (digits.size() == 2) {
             string s1 = str[digits[0] - '0' - 2];
             string s2 = str[digits[1] - '0' - 2];
             for (int i = 0; i < s1.size(); i++) {
@@ -24,8 +24,7 @@ public:
                     comb.push_back(word);
                 }
             }
-        }
-        else if (digits.size() == 3) {
+        } else if (digits.size() == 3) {
             string s1 = str[digits[0] - '0' - 2];
             string s2 = str[digits[1] - '0' - 2];
             string s3 = str[digits[2] - '0' - 2];

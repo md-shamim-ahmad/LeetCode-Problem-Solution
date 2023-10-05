@@ -1,7 +1,7 @@
 class Solution {
     string url;
-public:
 
+public:
     // Encodes a URL to a shortened URL.
     string encode(string longUrl) {
         url = longUrl;
@@ -9,9 +9,7 @@ public:
     }
 
     // Decodes a shortened URL to its original URL.
-    string decode(string shortUrl) {
-        return url;
-    }
+    string decode(string shortUrl) { return url; }
 };
 
 // Your Solution object will be instantiated and called as such:

@@ -20,8 +20,10 @@ public:
         int count = mp[0] + mp[1];
         int currdiff = 0;
         for (int i = ind + 1; i < n; i++) {
-            if (nums[i] < k) currdiff--;
-            else currdiff++;
+            if (nums[i] < k)
+                currdiff--;
+            else
+                currdiff++;
             count += mp[-currdiff];
             count += mp[1 - currdiff];
         }
