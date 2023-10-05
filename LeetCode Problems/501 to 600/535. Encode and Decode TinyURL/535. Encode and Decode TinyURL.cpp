@@ -1,7 +1,7 @@
 class Solution {
     string url;
-public:
 
+public:
     // Encodes a URL to a shortened URL.
     string encode(string longUrl) {
         url = longUrl;

@@ -5,7 +5,7 @@ public:
         for (int i = 0; i < sentence.size(); i++) {
             alphabet[sentence[i] - 'a']++;
         }
-        for (auto it : alphabet) {
+        for (auto it: alphabet) {
             if (it == 0)
                 return false;
         }

@@ -7,7 +7,7 @@ public:
             divisor *= -1;
             if (dividend == INT_MIN)
                 dividend += 1;
-            dividend *= -1;            
+            dividend *= -1;
         }
         return (dividend / divisor);
     }
