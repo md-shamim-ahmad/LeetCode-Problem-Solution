@@ -5,14 +5,11 @@ namespace Two_Sum
 {
     public class Two_Sum
     {
-        static void Main(string[] args)
-        {
-            int[] arr = { 9, 2, 24, 6, 4,1,8 };
-            int sum = 10;
-            findTwoSum(arr, sum);
-            Console.ReadLine();
-           
-        }
+
+        int[] arr = { 9, 2, 24, 6, 4, 1, 8 };
+        int sum = 10;
+        findTwoSum(arr, sum);
+        Console.ReadLine();
 
 
         // Finds the first Pair of numbers that sum upto the sum provided
@@ -31,13 +28,14 @@ namespace Two_Sum
                     Console.WriteLine($"Found the numbers - {compliment}, {item}");
                     break;
                 }
-                else {
-                    set.Add(item); 
+                else
+                {
+                    set.Add(item);
                 }
             }
 
         }
 
-        
+
     }
 }
