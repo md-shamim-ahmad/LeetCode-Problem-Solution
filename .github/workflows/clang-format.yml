@@ -1,7 +1,7 @@
 name: Clang format linter
 on:
-  push: {}
-  pull_request: {}
+  pull_request:
+    types: [opened, reopened]
 
 jobs:
   build:

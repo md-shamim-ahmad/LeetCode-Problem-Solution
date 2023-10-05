@@ -15,10 +15,11 @@ private:
         }
         return rep;
     }
+
 public:
-    vector <string> findAndReplacePattern(vector <string> &words, string pattern) {
+    vector<string> findAndReplacePattern(vector<string> &words, string pattern) {
         auto res = permutation(pattern);
-        for (auto it : words) {
+        for (auto it: words) {
             if (res == permutation(it))
                 value.push_back(it);
         }

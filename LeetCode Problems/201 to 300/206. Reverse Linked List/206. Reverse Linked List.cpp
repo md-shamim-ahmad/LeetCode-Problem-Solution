@@ -10,9 +10,9 @@
  */
 // ListNode *temp2 = new ListNode;
 class Solution {
-public:    
-    ListNode* reverseList(ListNode* head) {
-        if (!head || !head->next) 
+public:
+    ListNode *reverseList(ListNode *head) {
+        if (!head || !head->next)
             return head;
         ListNode *reverse = reverseList(head->next);
         head->next->next = head;

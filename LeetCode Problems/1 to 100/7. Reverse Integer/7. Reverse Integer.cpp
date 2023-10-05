@@ -2,7 +2,7 @@ class Solution {
 public:
     int reverse(int x) {
         long long rev_x = 0;
-        while(x != 0) {
+        while (x != 0) {
             int rem = x % 10;
             rev_x = rev_x * 10 + rem;
             x /= 10;
