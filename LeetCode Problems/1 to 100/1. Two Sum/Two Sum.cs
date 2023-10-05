@@ -9,7 +9,7 @@ namespace Two_Sum
         {
             int[] arr = { 9, 2, 24, 6, 4,1,8 };
             int sum = 10;
-            FindTwoSum(arr, sum);
+            findTwoSum(arr, sum);
             Console.ReadLine();
            
         }
@@ -22,7 +22,7 @@ namespace Two_Sum
         /// <param name="arr">Array</param>
         /// <param name="sum">Sum of a Pair of Numbers</param>
         /// <exception cref="ArgumentException"></exception>
-        static void FindTwoSum(int[] arr, int sum)
+        static void findTwoSum(int[] arr, int sum)
         {
             if (arr == null || arr.Length == 0)
                 throw new ArgumentException("Invalid array provided");
