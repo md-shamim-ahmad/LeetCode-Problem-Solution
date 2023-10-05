@@ -14,6 +14,8 @@ namespace Two_Sum
            
         }
 
+
+        // Finds the first Pair of numbers that sum upto the sum provided
         static void findTwoSum(int[] arr, int sum)
         {
             if (arr == null || arr.Length == 0)
