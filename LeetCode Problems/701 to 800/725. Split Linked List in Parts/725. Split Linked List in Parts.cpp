@@ -11,7 +11,7 @@
 
 class Solution {
 public:
-    int size(ListNode* temp) {
+    int size(ListNode *temp) {
         int cnt = 0;
         while (temp != nullptr) {
             cnt++;
@@ -19,18 +19,18 @@ public:
         }
         return cnt;
     }
-    vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        int n = size(head);        
+    vector<ListNode *> splitListToParts(ListNode *head, int k) {
+        int n = size(head);
         int split = n / k, left = n % k;
-        vector<ListNode*> splitList(k);
-        ListNode* prev = nullptr;
+        vector<ListNode *> splitList(k);
+        ListNode *prev = nullptr;
         for (int i = 0; i < k; i++) {
             splitList[i] = head;
             for (int j = 0; j < split + (i < left); j++) {
                 prev = head;
                 head = head->next;
             }
-            if (prev) 
+            if (prev)
                 prev->next = nullptr;
         }
         return splitList;
