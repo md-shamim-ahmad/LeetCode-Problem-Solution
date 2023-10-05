@@ -12,15 +12,15 @@
 class Solution {
 public:
     int xDepth = 0, yDepth = 0;
-    TreeNode* xParent = nullptr;
-    TreeNode* yParent = nullptr;
-    bool isCousins(TreeNode* root, int x, int y) {
+    TreeNode *xParent = nullptr;
+    TreeNode *yParent = nullptr;
+    bool isCousins(TreeNode *root, int x, int y) {
         if (root == nullptr) return false;
         dfs(root, x, y, 0, nullptr);
         return xDepth == yDepth && xParent != yParent;
     }
-    void dfs(TreeNode* root, int x, int y, int depth, TreeNode* parent) {
-        if (root == nullptr) 
+    void dfs(TreeNode *root, int x, int y, int depth, TreeNode *parent) {
+        if (root == nullptr)
             return;
         if (root->val == x) {
             xDepth = depth;
