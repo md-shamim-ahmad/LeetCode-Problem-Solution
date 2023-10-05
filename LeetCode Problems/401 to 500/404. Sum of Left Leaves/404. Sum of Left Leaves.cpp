@@ -11,8 +11,9 @@
  */
 class Solution {
     int sum = 0;
+
 public:
-    void help(TreeNode* root, int direc) {
+    void help(TreeNode *root, int direc) {
         if (root == nullptr) return;
         if (root->left == nullptr && root->right == nullptr) {
             if (direc == 0)
@@ -21,7 +22,7 @@ public:
         help(root->left, 0);
         help(root->right, 1);
     }
-    int sumOfLeftLeaves(TreeNode* root) {   
+    int sumOfLeftLeaves(TreeNode *root) {
         help(root, 1);
         return sum;
     }

@@ -1,12 +1,12 @@
 class Solution {
-    
+
     /*
     Time Complexity -> O(2*(N*M))
     Space Complexity -> O(1)
     */
 
 public:
-    vector<vector<int>> setZeroesHelper(vector<vector<int>> &matrix, int n, int m)  {
+    vector<vector<int>> setZeroesHelper(vector<vector<int>> &matrix, int n, int m) {
         int col0 = 1;
         // step 1: Traverse the matrix and
         // mark 1st row & col accordingly:
@@ -51,7 +51,7 @@ public:
 
         return matrix;
     }
-    void setZeroes(vector<vector<int>>& matrix) {
-        matrix = setZeroesHelper(matrix,matrix.size(),matrix[0].size());
+    void setZeroes(vector<vector<int>> &matrix) {
+        matrix = setZeroesHelper(matrix, matrix.size(), matrix[0].size());
     }
 };

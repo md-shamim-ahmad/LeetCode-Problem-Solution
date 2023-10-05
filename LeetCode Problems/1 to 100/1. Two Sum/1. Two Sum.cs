@@ -11,7 +11,6 @@ namespace Two_Sum
         findTwoSum(arr, sum);
         Console.ReadLine();
 
-
         // Finds the first Pair of numbers that sum upto the sum provided
         static void findTwoSum(int[] arr, int sum)
         {
@@ -33,9 +32,6 @@ namespace Two_Sum
                     set.Add(item);
                 }
             }
-
-        }
-
-
+        }        
     }
 }

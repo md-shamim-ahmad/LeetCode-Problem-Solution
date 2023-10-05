@@ -6,7 +6,7 @@
  *               otherwise return 0
  * int guess(int num);
  */
-typedef  long long int ll;
+typedef long long int ll;
 class Solution {
 public:
     int guessNumber(int n) {
@@ -18,7 +18,7 @@ public:
                 return m;
             } else if (gues == 1) {
                 f = m + 1;
-            } else 
+            } else
                 n = m - 1;
         }
         return 0;
