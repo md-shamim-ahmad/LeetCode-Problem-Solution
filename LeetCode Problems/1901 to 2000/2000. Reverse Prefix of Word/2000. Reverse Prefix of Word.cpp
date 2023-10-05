@@ -6,7 +6,7 @@ public:
         for (int i = 0; i < word.size(); i++) {
             ans += word[i];
             if (word[i] == ch && check == true) {
-                reverse (ans.begin(), ans.end());
+                reverse(ans.begin(), ans.end());
                 check = false;
             }
         }

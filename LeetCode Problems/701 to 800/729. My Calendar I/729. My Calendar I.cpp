@@ -1,10 +1,11 @@
 class MyCalendar {
     vector<pair<int, int>> dic;
-public:    
+
+public:
     bool book(int start, int end) {
-        for (auto it : dic) {
+        for (auto it: dic) {
             if (max(it.first, start) < min(it.second, end))
-                return false;            
+                return false;
         }
         dic.push_back({start, end});
         return true;

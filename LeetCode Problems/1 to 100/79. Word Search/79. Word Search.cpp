@@ -18,7 +18,7 @@ private:
 
     bool found = false;
 
-    void dfs(int i, int j, vector <vector<char>> &board, Trie *node) {
+    void dfs(int i, int j, vector<vector<char>> &board, Trie *node) {
         char ch = board[i][j];
         if (ch == '$' || !node->alphabet[ch - 'A']) return;
         node = node->alphabet[ch - 'A'];
@@ -36,7 +36,7 @@ private:
     }
 
 public:
-    bool exist(vector <vector<char>> &board, string word) {
+    bool exist(vector<vector<char>> &board, string word) {
         insert(word);
         for (int i = 0; i < board.size(); i++) {
             for (int j = 0; j < board[0].size(); j++) {
