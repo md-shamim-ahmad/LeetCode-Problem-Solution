@@ -9,9 +9,9 @@ class Solution {
             dpCurr = temp;
             for (int j = i + 1; j < N; j++) {
                 total += S[j];
-                dpCurr[j] = Math.max(total - S[i] - dpLast[j], total - S[j] - dpCurr[j-1]);
+                dpCurr[j] = Math.max(total - S[i] - dpLast[j], total - S[j] - dpCurr[j - 1]);
             }
         }
-        return dpCurr[N-1];
+        return dpCurr[N - 1];
     }
 }
