@@ -6,7 +6,7 @@ public:
         for (auto t: transactions) {
             string tmp;
             vector<string> tt;
-            for (auto c:t) {
+            for (auto c: t) {
                 if (c == ',') {
                     tt.push_back(tmp);
                     tmp = "";
@@ -23,7 +23,6 @@ public:
                     (trans[i][3] != trans[j][3])) {
                     invalid[i] = true;
                     invalid[j] = true;
-
                 }
             }
         }

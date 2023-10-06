@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    int help(TreeNode* root, int value) {
+    int help(TreeNode *root, int value) {
         if (root == nullptr)
             return 0;
         value = (value * 2 + root->val);
@@ -21,7 +21,7 @@ public:
             return help(root->left, value) + help(root->right, value);
         }
     }
-    int sumRootToLeaf(TreeNode* root) {        
-        return help (root, 0);
+    int sumRootToLeaf(TreeNode *root) {
+        return help(root, 0);
     }
 };

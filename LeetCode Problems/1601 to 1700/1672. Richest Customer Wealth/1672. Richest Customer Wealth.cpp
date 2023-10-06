@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maximumWealth(vector<vector<int>>& accounts) {
+    int maximumWealth(vector<vector<int>> &accounts) {
         int ans = INT_MIN, n = accounts.size();
         for (int i = 0; i < n; i++) {
             int sum = 0;

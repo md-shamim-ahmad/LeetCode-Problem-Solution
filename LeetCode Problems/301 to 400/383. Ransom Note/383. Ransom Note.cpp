@@ -10,7 +10,7 @@ public:
             if (mp[magazine[i]] > 0)
                 mp[magazine[i]]--;
         }
-        for (auto it : mp) {
+        for (auto it: mp) {
             cnt += it.second;
         }
         return cnt == 0 ? true : false;
