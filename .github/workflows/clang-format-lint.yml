@@ -1,7 +1,7 @@
 name: Clang format linter
 on:
-  pull_request:
-    types: [opened, reopened]
+  push: {}
+  pull_request: {}
 
 jobs:
   build:
@@ -12,5 +12,5 @@ jobs:
     - uses: DoozyX/clang-format-lint-action@v0.16.2
       with:
         source: './'
-        extensions: 'cpp, java'
+        extensions: 'cpp,java'
         clangFormatVersion: 16
