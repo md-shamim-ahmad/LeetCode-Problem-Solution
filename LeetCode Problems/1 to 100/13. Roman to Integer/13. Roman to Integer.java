@@ -18,8 +18,7 @@ class Solution {
             } else {
                 ans += map.get(s.charAt(i));
             }
-        }
-        
+        }        
         return ans;
     }
 }
