@@ -13,7 +13,7 @@ public:
                 ++j;
             }
             dc.insert(ch);
-            ans = max(ans, i - j  + 1);
+            ans = max(ans, i - j + 1);
             ++i;
         }
         return ans;

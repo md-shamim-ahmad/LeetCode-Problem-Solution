@@ -10,16 +10,16 @@
  */
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-        ListNode *result = new ListNode;  
+    ListNode *removeElements(ListNode *head, int val) {
+        ListNode *result = new ListNode;
         result->next = head;
         ListNode *temp = result;
-        while(temp -> next != nullptr) {
+        while (temp->next != nullptr) {
             if (temp->next->val == val) {
                 temp->next = temp->next->next;
             } else {
                 temp = temp->next;
-            }            
+            }
         }
         return result->next;
     }
