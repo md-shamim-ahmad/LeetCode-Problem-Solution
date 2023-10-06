@@ -18,7 +18,7 @@ class Solution {
     private void traversal(TreeNode root, int pathVal) {
         if (root == null) return;
         pathVal = pathVal * 10 + root.val;
-        if(root.left == null && root.right == null) {
+        if (root.left == null && root.right == null) {
             ans += pathVal;
             return;
         }

@@ -8,7 +8,9 @@ public:
 
     static inline std::string &rtrim(std::string &s) {
         s.erase(std::find_if(s.rbegin(), s.rend(),
-                             std::not1(std::ptr_fun<int, int>(std::isspace))).base(), s.end());
+                             std::not1(std::ptr_fun<int, int>(std::isspace)))
+                        .base(),
+                s.end());
         return s;
     }
 

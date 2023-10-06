@@ -65,6 +65,6 @@ public:
         }
         for (int i = 0; i < num; i++)
             IntToRoman += "I";
-        return IntToRoman;        
+        return IntToRoman;
     }
 };
