@@ -13,8 +13,8 @@ public class Solution {
                 char b = sb.charAt(right);
                 sb.setCharAt(left, b);
                 sb.setCharAt(right, a);
-                left ++;
-                right --;
+                left++;
+                right--;
             }
             i = i + 2 * k;
         }

@@ -16,13 +16,13 @@
 class Solution {
     HashMap<Integer, Integer> mapVal2Idx = new HashMap<>();
     int preIdx = 0;
-    
+
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int n = inorder.length;
         for (int i = 0; i < n; ++i) mapVal2Idx.put(inorder[i], i);
         return dfs(0, n - 1, preorder);
     }
-    
+
     TreeNode dfs(int left, int right, int[] preorder) {
         if (left > right) return null;
         TreeNode root = new TreeNode(preorder[preIdx++]);

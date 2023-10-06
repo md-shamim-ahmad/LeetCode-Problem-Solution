@@ -6,12 +6,12 @@ class Solution {
             fast = fast.next.next;
             slow = slow.next;
         }
-        //divide the linked list into 2 halfs
-        //reversing second half
+        // divide the linked list into 2 halfs
+        // reversing second half
         ListNode second = reverse(slow.next);
         slow.next = null;
         ListNode first = head;
-        //combining both the lists
+        // combining both the lists
         while (second != null) {
             ListNode temp1 = first.next;
             ListNode temp2 = second.next;
