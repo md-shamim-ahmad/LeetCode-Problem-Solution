@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int countRangeSum(vector<int>& nums, int lower, int upper) {
+    int countRangeSum(vector<int> &nums, int lower, int upper) {
         int res = 0;
         long long sum = 0;
         multiset<long long> sums;

@@ -1,8 +1,8 @@
 class Solution {
-    ListNode* reverse_it(ListNode* head){
+    ListNode *reverse_it(ListNode *head) {
         ListNode *prev = NULL;
         ListNode *curr = head, *next;
-        while(curr!=NULL){
+        while (curr != NULL) {
             next = curr->next;
             curr->next = prev;
             prev = curr;
@@ -10,16 +10,16 @@ class Solution {
         }
         return prev;
     }
+
 public:
-    
-    ListNode* removeNodes(ListNode* head) {
-        head  = reverse_it(head);
+    ListNode *removeNodes(ListNode *head) {
+        head = reverse_it(head);
         int mx = (head)->val;
-        ListNode* prev = head;
-         ListNode* curr = (head)->next;
-        while(curr != NULL){
-            if(curr->val < mx){
-                ListNode* temp = curr;
+        ListNode *prev = head;
+        ListNode *curr = (head)->next;
+        while (curr != NULL) {
+            if (curr->val < mx) {
+                ListNode *temp = curr;
                 prev->next = curr->next;
                 curr = curr->next;
                 delete temp;
@@ -29,7 +29,7 @@ public:
                 curr = curr->next;
             }
         }
-        head  = reverse_it(head);
+        head = reverse_it(head);
         return head;
     }
 };

@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> findErrorNums(vector<int>& nums) {
+    vector<int> findErrorNums(vector<int> &nums) {
         int n = nums.size();
         vector<int> vct(n + 1, 0);
         for (int i = 1; i <= n; i++) {
@@ -8,10 +8,10 @@ public:
         }
         int missing_num, duplicate_num;
         for (int i = 1; i <= n; i++) {
-            if(vct[i] == 0) {
+            if (vct[i] == 0) {
                 missing_num = i;
             }
-            if(vct[i] > 1) {
+            if (vct[i] > 1) {
                 duplicate_num = i;
             }
         }

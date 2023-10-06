@@ -7,20 +7,21 @@ public:
         }
         arr.emplace_back(val, min_idx);
     }
-    
+
     void pop() {
         arr.pop_back();
     }
-    
+
     int top() {
         return arr.back().first;
     }
-    
+
     int getMin() {
         return arr[arr.back().second].first;
     }
-private:        
-        vector<pair<int, int>> arr;
+
+private:
+    vector<pair<int, int>> arr;
 };
 
 /**
