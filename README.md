@@ -34,7 +34,7 @@ Feel free to open an [issue](https://github.com/Md-Shamim-Ahmmed/LeetCode-Proble
 
 ## Contribution Guidelines :page_with_curl:
 ### How to contribute? :eyes:
-1. See [```Guidelines```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidlines/How%20to%20Add%20a%20new%20Solution%20Code.md)
+1. See [```Guidelines```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidelines/How%20to%20Add%20a%20new%20Solution%20Code.md)
 2. Fork the repository
 4. Make the desired changes (add/delete/modify)
 5. Make a pull request
@@ -46,8 +46,8 @@ Feel free to open an [issue](https://github.com/Md-Shamim-Ahmmed/LeetCode-Proble
 solution and make a pull request with your solution
 4. If your method of solving asymptotically slower then comment your solution and make a pull request
 
-### Contributors
+<!-- ### Contributors
 
-<a href="https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/contributors">
+ <a href="https://github.com/Md-Shamim-Ahmmed/LeetCode-Problem-Solution/contributors">
   <img src="https://contrib.rocks/image?repo=Md-Shamim-Ahmmed/LeetCode-Problem-Solution" />
-</a>
+</a> -->

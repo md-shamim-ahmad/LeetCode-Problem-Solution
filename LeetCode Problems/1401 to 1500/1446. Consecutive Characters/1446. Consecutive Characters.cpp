@@ -9,7 +9,8 @@ public:
                     cnt++, i++;
                 }
                 ans = max(ans, cnt);
-            } else i++;
+            } else
+                i++;
         }
         return ans;
     }

@@ -10,20 +10,20 @@
  */
 class Solution {
 public:
-    void insert(ListNode** head, int value) {
-        ListNode* temp = new ListNode;
+    void insert(ListNode **head, int value) {
+        ListNode *temp = new ListNode;
         temp->val = value;
         temp->next = *head;
         *head = temp;
     }
-    ListNode* reverseBetween(ListNode* head, int left, int right) {    
+    ListNode *reverseBetween(ListNode *head, int left, int right) {
         vector<int> arr;
-        while(head) {
+        while (head) {
             arr.push_back(head->val);
-            head = head->next;            
+            head = head->next;
         }
         left -= 1, right -= 1;
-        while(left <= right) {
+        while (left <= right) {
             swap(arr[left], arr[right]);
             left++, right--;
         }

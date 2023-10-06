@@ -20,11 +20,11 @@ public:
 
 class Solution {
 public:
-    vector<int> preorder(Node* root) {
+    vector<int> preorder(Node *root) {
         vector<int> list;
-        if(!root)
+        if (!root)
             return list;
-        stack<Node*> arr;
+        stack<Node *> arr;
         arr.push(root);
         while (!arr.empty()) {
             auto top = arr.top();

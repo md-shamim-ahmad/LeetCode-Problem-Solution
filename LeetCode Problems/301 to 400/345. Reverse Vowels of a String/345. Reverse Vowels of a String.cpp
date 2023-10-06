@@ -6,11 +6,11 @@ public:
         if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
             return true;
         return false;
-    }        
+    }
     string reverseVowels(string s) {
         int l = 0, r = s.size() - 1;
-        while(l < r) {
-            if(isVowel(s[l]) && isVowel(s[r])) {
+        while (l < r) {
+            if (isVowel(s[l]) && isVowel(s[r])) {
                 swap(s[l], s[r]);
                 l++, r--;
             }

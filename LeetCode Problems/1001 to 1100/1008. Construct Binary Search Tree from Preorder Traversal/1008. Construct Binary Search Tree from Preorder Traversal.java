@@ -15,18 +15,17 @@
  */
 class Solution {
     private TreeNode buildBST(TreeNode root, int data) {
-        if(root == null)
+        if (root == null)
             root = new TreeNode(data);
         else if (root.val > data)
             root.left = buildBST(root.left, data);
-        else 
+        else
             root.right = buildBST(root.right, data);
         return root;
     }
     public TreeNode bstFromPreorder(int[] preorder) {
         TreeNode root = null;
-        for(int i = 0; i < preorder.length; i++) 
-            root = buildBST(root, preorder[i]);
+        for (int i = 0; i < preorder.length; i++) root = buildBST(root, preorder[i]);
         return root;
     }
 }
