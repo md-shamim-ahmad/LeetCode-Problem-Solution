@@ -11,14 +11,15 @@
  */
 class Solution {
     int helper(TreeNode *root, int mn, int mx) {
-        if(root == nullptr)
+        if (root == nullptr)
             return mx - mn;
         mn = min(mn, root->val);
         mx = max(mx, root->val);
         return max(helper(root->left, mn, mx), helper(root->right, mn, mx));
     }
+
 public:
-    int maxAncestorDiff(TreeNode* root) {
+    int maxAncestorDiff(TreeNode *root) {
         return helper(root, INT_MAX, 0);
     }
 };

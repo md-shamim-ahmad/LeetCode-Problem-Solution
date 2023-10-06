@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> nextsmallerelement(vector<int>& arr, int n) {
+    vector<int> nextsmallerelement(vector<int> &arr, int n) {
         stack<int> s;
         vector<int> ans(n);
         s.push(-1);
@@ -16,7 +16,7 @@ public:
         return ans;
     }
 
-    vector<int> prevsmallerelement(vector<int>& arr, int n) {
+    vector<int> prevsmallerelement(vector<int> &arr, int n) {
         stack<int> s;
         vector<int> ans(n);
         s.push(-1);
@@ -32,7 +32,7 @@ public:
         return ans;
     }
 
-    int largestRectangleArea(vector<int>& heights) {
+    int largestRectangleArea(vector<int> &heights) {
         int n = heights.size();
         vector<int> next(n);
         vector<int> prev(n);
@@ -53,4 +53,3 @@ public:
         return maxarea;
     }
 };
-

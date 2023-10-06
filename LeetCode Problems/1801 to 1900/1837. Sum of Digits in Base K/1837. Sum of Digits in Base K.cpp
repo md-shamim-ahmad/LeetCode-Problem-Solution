@@ -5,7 +5,7 @@ public:
         while (n != 0) {
             int rem = n % k;
             int c = pow(10, cnt);
-            num +=  rem * c;
+            num += rem * c;
             n /= k;
             cnt++;
         }

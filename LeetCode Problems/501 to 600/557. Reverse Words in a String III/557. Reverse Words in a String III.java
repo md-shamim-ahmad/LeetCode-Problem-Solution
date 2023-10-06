@@ -1,13 +1,13 @@
 class Solution {
-    private void reverse(char []s, int l, int r) {
-        while(l < r) {
+    private void reverse(char[] s, int l, int r) {
+        while (l < r) {
             char temp = s[l];
             s[l++] = s[r];
-            s[r--] = temp;            
+            s[r--] = temp;
         }
     }
     public String reverseWords(String s) {
-        char []res = s.toCharArray();
+        char[] res = s.toCharArray();
         for (int i = 0, l = 0; i < res.length; i++) {
             if (res[i] == ' ') {
                 reverse(res, l, i - 1);

@@ -8,14 +8,14 @@ public:
             if (check) {
                 str += word1[i++];
                 check = false;
-            }else {
+            } else {
                 str += word2[j++];
                 check = true;
             }
         }
-        for(; i < word1.size(); i++)
+        for (; i < word1.size(); i++)
             str += word1[i];
-        for(; j < word2.size(); j++)
+        for (; j < word2.size(); j++)
             str += word2[j];
 
         return str;

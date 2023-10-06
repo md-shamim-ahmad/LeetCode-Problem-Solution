@@ -10,11 +10,11 @@
  * };
  */
 class Solution {
-public:    
-    bool isSymmetric(TreeNode* root) {
+public:
+    bool isSymmetric(TreeNode *root) {
         return isMirror(root, root);
     }
-    bool isMirror(TreeNode* a, TreeNode* b) {
+    bool isMirror(TreeNode *a, TreeNode *b) {
         if (a == nullptr && b == nullptr)
             return true;
         if (a == nullptr || b == nullptr)
