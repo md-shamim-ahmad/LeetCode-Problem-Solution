@@ -4,12 +4,12 @@ public:
         if (k >= 2) {
             sort(s.begin(), s.end());
             return s;
-        }else {
+        } else {
             vector<string> arr;
             arr.push_back(s);
             for (int i = 0; i < s.size(); i++) {
                 s += s[0];
-                s.erase(0,1);
+                s.erase(0, 1);
                 arr.push_back(s);
             }
             sort(arr.begin(), arr.end());

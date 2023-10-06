@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int equalPairs(vector<vector<int>>& grid) {
+    int equalPairs(vector<vector<int>> &grid) {
         vector<string> arr, a;
         for (int i = 0; i < grid.size(); i++) {
             string s = "";

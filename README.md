@@ -34,7 +34,7 @@ Feel free to open an [issue](https://github.com/Md-Shamim-Ahmmed/LeetCode-Proble
 
 ## Contribution Guidelines :page_with_curl:
 ### How to contribute? :eyes:
-1. See [```Guidelines```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidlines/How%20to%20Add%20a%20new%20Solution%20Code.md)
+1. See [```Guidelines```](https://github.com/md-shamim-ahmad/LeetCode-Problem-Solution/blob/main/Contribution%20Guidelines/How%20to%20Add%20a%20new%20Solution%20Code.md)
 2. Fork the repository
 4. Make the desired changes (add/delete/modify)
 5. Make a pull request

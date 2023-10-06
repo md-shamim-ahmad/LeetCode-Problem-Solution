@@ -6,6 +6,7 @@ public:
             return 0;
         reverse(s.begin(), s.end());
         if (str == s) return 1;
-        else return 2;
+        else
+            return 2;
     }
 };
