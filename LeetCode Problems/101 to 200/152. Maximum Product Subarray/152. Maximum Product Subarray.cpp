@@ -1,6 +1,5 @@
 class Solution {
 public:
-    int maxProduct(vector<int>& nums) {
-        
+    int maxProduct(vector<int> &nums) {
     }
 };

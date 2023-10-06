@@ -1,9 +1,9 @@
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
-        if (nums.size() == 1 || nums[0] > nums[1]) 
-            return 0;            
-        if (nums[nums.size() - 1] > nums[nums.size() - 2]) 
+    int findPeakElement(vector<int> &nums) {
+        if (nums.size() == 1 || nums[0] > nums[1])
+            return 0;
+        if (nums[nums.size() - 1] > nums[nums.size() - 2])
             return nums.size() - 1;
         int f = 1, l = nums.size() - 2;
         while (f <= l) {
@@ -15,7 +15,7 @@ public:
             } else {
                 f = m + 1;
             }
-         }
-         return -1;
+        }
+        return -1;
     }
 };

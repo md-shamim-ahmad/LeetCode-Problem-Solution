@@ -6,7 +6,7 @@
 
 // @lc code=start
 
-  //Definition for a binary tree node.
+//Definition for a binary tree node.
 //   struct TreeNode {
 //       int val;
 //       TreeNode *left;
@@ -18,18 +18,18 @@
 typedef long long ll;
 class Solution {
     bool ans = false;
+
 public:
-    bool check (TreeNode *root, ll mn, ll mx) {
+    bool check(TreeNode *root, ll mn, ll mx) {
         if (root == nullptr) return true;
         int value = root->val;
         if (value < mx && value > mn) {
             return check(root->left, mn, root->val) and check(root->right, root->val, mx);
-        }        
+        }
         return false;
     }
-    bool isValidBST(TreeNode* root) {        
+    bool isValidBST(TreeNode *root) {
         return check(root, LONG_MIN, LONG_MAX);
     }
 };
 // @lc code=end
-

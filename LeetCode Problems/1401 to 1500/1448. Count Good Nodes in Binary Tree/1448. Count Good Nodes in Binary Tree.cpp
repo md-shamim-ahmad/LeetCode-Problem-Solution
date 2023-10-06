@@ -11,18 +11,17 @@
  */
 class Solution {
 public:
-    
-    int help(TreeNode* root, int value) {
+    int help(TreeNode *root, int value) {
         if (root != nullptr) {
             int cnt = help(root->left, max(value, root->val)) + help(root->right, max(value, root->val));
             if (root->val >= value)
                 cnt++;
             return cnt;
-        } 
+        }
         return 0;
     }
-    
-    int goodNodes(TreeNode* root) {
+
+    int goodNodes(TreeNode *root) {
         return help(root, INT_MIN);
     }
 };
