@@ -1,7 +1,7 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int n = s.length();
-        boolean []dp = new boolean[n + 1];
+        boolean[] dp = new boolean[n + 1];
         Arrays.fill(dp, false);
         dp[n] = true;
         for (int i = n - 1; i >= 0; i--) {

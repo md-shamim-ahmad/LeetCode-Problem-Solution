@@ -16,8 +16,7 @@
 class Solution {
     private List<Integer> arr = new ArrayList<>();
     private void PreorderTraversal(TreeNode root) {
-        if(root == null)
-            return;
+        if (root == null) return;
         arr.add(root.val);
         PreorderTraversal(root.left);
         PreorderTraversal(root.right);
