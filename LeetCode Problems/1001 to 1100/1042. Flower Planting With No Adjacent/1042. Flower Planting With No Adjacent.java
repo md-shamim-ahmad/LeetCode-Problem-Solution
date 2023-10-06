@@ -17,7 +17,8 @@ class Solution {
             }
             for (int color = 1; color <= 4; color++) {
                 if (!colors[color]) {
-                    ans[i] = color; break;
+                    ans[i] = color;
+                    break;
                 }
             }
         }
