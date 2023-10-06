@@ -6,7 +6,7 @@ class Solution {
         boolean[] visited = new boolean[n];
         List<List<Integer>> ans = new ArrayList<>();
 
-              // 1. build adj
+        // 1. build adj
         List<Integer>[] adj = new ArrayList[n];
         for (int i = 0; i < n; i++) {
             adj[i] = new ArrayList<>();
@@ -16,13 +16,13 @@ class Solution {
             adj[node.get(1)].add(node.get(0));
         }
 
-          // 2. dfs
+        // 2. dfs
         dfs(0, -1, time, adj, low, disc, visited, ans);
 
         return ans;
     }
 
-    private void dfs(int current , int parent, int time,  List<Integer>[] adj, int[] low, int[] disc, boolean[] visited, List<List<Integer>> ans) {
+    private void dfs(int current, int parent, int time, List<Integer>[] adj, int[] low, int[] disc, boolean[] visited, List<List<Integer>> ans) {
         time++;
         low[current] = time;
         disc[current] = time;
@@ -35,9 +35,9 @@ class Solution {
                 dfs(neighbor, current, time, adj, low, disc, visited, ans);
                 low[current] = Math.min(low[current], low[neighbor]);
 
-                 // If the lowest vertex reachable from subtree 
-                // under neighbor is below current in DFS tree, then current-neighbor is 
-                // a bridge 
+                // If the lowest vertex reachable from subtree
+                // under neighbor is below current in DFS tree, then current-neighbor is
+                // a bridge
                 if (low[neighbor] > disc[current]) {
                     ans.add(Arrays.asList(current, neighbor));
                 }

@@ -7,7 +7,7 @@ class Solution {
                 return m;
             else if (nums[m] < target)
                 f = m;
-            else 
+            else
                 l = m;
         }
         return l;
