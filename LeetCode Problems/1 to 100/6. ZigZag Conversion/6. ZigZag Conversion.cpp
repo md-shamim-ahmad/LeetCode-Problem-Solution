@@ -1,7 +1,7 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        if(s.size() < 3 || numRows < 2)
+        if (s.size() < 3 || numRows < 2)
             return s;
         vector<int> ar[numRows];
         int row = 0, direct = 1;

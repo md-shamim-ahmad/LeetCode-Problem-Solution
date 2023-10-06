@@ -12,14 +12,15 @@
 class Solution {
 private:
     vector<int> arr;
-    void inorder(TreeNode* root){
-        if(root == nullptr) return;
+    void inorder(TreeNode *root) {
+        if (root == nullptr) return;
         inorder(root->left);
         arr.push_back(root->val);
         inorder(root->right);
     }
+
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
+    vector<int> inorderTraversal(TreeNode *root) {
         inorder(root);
         return arr;
     }

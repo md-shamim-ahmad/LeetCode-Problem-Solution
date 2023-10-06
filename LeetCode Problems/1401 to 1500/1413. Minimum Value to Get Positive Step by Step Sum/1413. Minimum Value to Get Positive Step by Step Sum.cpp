@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minStartValue(vector<int>& nums) {
+    int minStartValue(vector<int> &nums) {
         for (int i = 1; i < INT_MAX; i++) {
             int startValue = i;
             bool check = true;

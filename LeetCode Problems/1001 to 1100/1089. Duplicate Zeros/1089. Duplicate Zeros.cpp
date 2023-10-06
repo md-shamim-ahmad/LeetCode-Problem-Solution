@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void duplicateZeros(vector<int>& arr) {
+    void duplicateZeros(vector<int> &arr) {
         int n = arr.size(), num = 0, cnt = 0;
         for (int i = 0; i < n - 1; i++) {
             if (!arr[i]) {

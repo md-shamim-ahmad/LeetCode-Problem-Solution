@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
+    bool isPalindrome(ListNode *head) {
         vector<int> arr;
         while (head != nullptr) {
             arr.push_back(head->val);
@@ -23,6 +23,7 @@ public:
                 check = false;
             i++, j--;
         }
-        return check;;
+        return check;
+        ;
     }
 };

@@ -5,9 +5,8 @@ class Solution {
             map.merge(ele, 1, Integer::sum);
         }
         int ans = -1;
-        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if(entry.getValue() == 1)
-                ans = entry.getKey();
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == 1) ans = entry.getKey();
         }
         return ans;
     }
