@@ -13,7 +13,7 @@ public:
         while (temp != nullptr) {
             temp->val = -temp->val;
             temp = temp->next;
-        }        
+        }
         while (headB != nullptr) {
             if (headB->val < 0 && ans == nullptr)
                 ans = headB;

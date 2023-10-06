@@ -7,8 +7,7 @@ bool SortBaseOnSecondElement(const pair<char, int> &a, const pair<char, int> &b)
 }
 class Solution {
 public:
-
-    char slowestKey(vector<int>& releaseTimes, string keysPressed) {
+    char slowestKey(vector<int> &releaseTimes, string keysPressed) {
         int n = keysPressed.size();
         vector<pair<char, int>> arr;
         arr.emplace_back(keysPressed[0], releaseTimes[0]);

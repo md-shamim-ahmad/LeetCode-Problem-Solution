@@ -13,7 +13,7 @@ class Solution {
 public:
     unordered_map<int, int> mapValIdx;
     int preIdx = 0;
-    TreeNode* dfs_fun(int left, int right, vector<int> &preorder) {
+    TreeNode *dfs_fun(int left, int right, vector<int> &preorder) {
         if (left > right) return nullptr;
         TreeNode *root = new TreeNode(preorder[preIdx++]);
         int mid = mapValIdx[root->val];
@@ -21,8 +21,8 @@ public:
         root->right = dfs_fun(mid + 1, right, preorder);
         return root;
     }
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-         int n = inorder.size();
+    TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+        int n = inorder.size();
         for (int i = 0; i < n; ++i) mapValIdx[inorder[i]] = i;
         return dfs_fun(0, n - 1, preorder);
     }
