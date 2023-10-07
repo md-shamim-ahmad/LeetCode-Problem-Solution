@@ -16,7 +16,7 @@
 class Solution {
     private List<Integer> list = new ArrayList<>();
     private void inorder(TreeNode root) {
-        if(root == null) return;
+        if (root == null) return;
         inorder(root.left);
         list.add(root.val);
         inorder(root.right);
