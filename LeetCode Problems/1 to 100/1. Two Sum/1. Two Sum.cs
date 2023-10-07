@@ -1,37 +1,29 @@
-using System;
-using System.Collections.Generic;
-
-namespace Two_Sum
+public class Solution
 {
-    public class Two_Sum
+    public int[] TwoSum(int[] nums, int target)
     {
+        if (nums == null || nums.Length == 0)
+            throw new ArgumentException("Invalid array provided");
 
-        int[] arr = { 9, 2, 24, 6, 4, 1, 8 };
-        int sum = 10;
-        findTwoSum(arr, sum);
-        Console.ReadLine();
+        Dictionary<int, int> set = new Dictionary<int, int>();
 
-        // Finds the first Pair of numbers that sum upto the sum provided
-        static void findTwoSum(int[] arr, int sum)
+        for (int i = 0; i < nums.Length; i++)
         {
-            if (arr == null || arr.Length == 0)
-                throw new ArgumentException("Invalid array provided");
-
-            HashSet<int> set = new HashSet<int>();
-
-            foreach (int item in arr)
+            int compliment = target - nums[i];
+            if (set.ContainsKey(compliment))
             {
-                int compliment = sum - item;
-                if (set.Contains(compliment))
-                {
-                    Console.WriteLine($"Found the numbers - {compliment}, {item}");
-                    break;
-                }
-                else
-                {
-                    set.Add(item);
-                }
+                return new[] { set[compliment], i };
             }
-        }        
+            else
+            {
+                if (!set.ContainsKey(nums[i]))
+                { // To avoid duplicates
+                    set.Add(nums[i], i);
+                }
+
+            }
+        }
+
+        return new int[] { };
     }
 }
