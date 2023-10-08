@@ -4,6 +4,7 @@ class Solution {
         int left = 0;
         int count = 0;
         int stringLength = s.length();
+        // using sliding window algorithm
         Map<Character, Integer> map = new HashMap<>();
         for (int right = 0; right < stringLength; right++) {
             char current = s.charAt(right);
