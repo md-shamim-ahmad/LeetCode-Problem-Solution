@@ -24,8 +24,7 @@ class Solution {
             }
             k++;
         }
-        if (index2 != -1)
-            return (currentNumber + prevNumber) / 2;
+        if (index2 != -1) return (currentNumber + prevNumber) / 2;
 
         return currentNumber;
     }
