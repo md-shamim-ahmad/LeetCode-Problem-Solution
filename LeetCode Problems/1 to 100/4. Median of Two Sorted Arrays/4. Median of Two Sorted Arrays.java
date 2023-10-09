@@ -2,12 +2,8 @@ class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
-        int index1 = (m + n) / 2;
-        int index2 = -1;
+        int mid = (m + n) / 2;
         double currentNumber = -1, prevNumber = -1;
-        if ((m + n) % 2 == 0) {
-            index2 = index1 - 1;
-        }
         int i = 0, j = 0, k = 0;
         while (i < m || j < n) {
             prevNumber = currentNumber;
@@ -19,12 +15,12 @@ class Solution {
                 j++;
             }
 
-            if (k == index1) {
+            if (k == mid) {
                 break;
             }
             k++;
         }
-        if (index2 != -1) return (currentNumber + prevNumber) / 2;
+        if ((m + n) % 2 == 0) return (currentNumber + prevNumber) / 2;
 
         return currentNumber;
     }
