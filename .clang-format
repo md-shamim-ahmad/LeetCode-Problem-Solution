@@ -203,7 +203,7 @@ UseCRLF:         false
 UseTab:          Never
 ...
 ---
-Language: C#
+Language: CSharp
 AccessModifierOffset: -4
 AlignAfterOpenBracket: DontAlign
 AlignConsecutiveMacros: false
