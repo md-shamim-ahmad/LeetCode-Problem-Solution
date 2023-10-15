@@ -1,10 +1,11 @@
 class NumArray {
     int size;
     vector<int> values;
+
 public:
-    void build(vector<int>& nums, int x, int lx, int rx) {
+    void build(vector<int> &nums, int x, int lx, int rx) {
         if (rx - lx == 1) {
-            if (lx < (int)nums.size())
+            if (lx < (int) nums.size())
                 values[x] = nums[lx];
             return;
         }
@@ -13,7 +14,7 @@ public:
         build(nums, 2 * x + 2, m, rx);
         values[x] = values[2 * x + 1] + values[2 * x + 2];
     }
-    NumArray(vector<int>& nums) {
+    NumArray(vector<int> &nums) {
         size = 1;
         while (size < nums.size())
             size *= 2;

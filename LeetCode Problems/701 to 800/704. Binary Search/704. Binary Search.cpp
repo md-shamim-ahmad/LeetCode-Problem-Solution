@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int search(vector<int>& nums, int target) {
+    int search(vector<int> &nums, int target) {
         int f = -1, l = nums.size();
         while (l > f + 1) {
             int m = (l + f) / 2;
@@ -8,7 +8,7 @@ public:
                 return m;
             else if (nums[m] < target)
                 f = m;
-            else 
+            else
                 l = m;
         }
         return -1;

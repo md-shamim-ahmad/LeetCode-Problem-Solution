@@ -6,7 +6,7 @@ class Solution {
         }
         int k = 0;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            for (int i = 0; i < Math.min(2, entry.getValue()); i++){
+            for (int i = 0; i < Math.min(2, entry.getValue()); i++) {
                 nums[k++] = entry.getKey();
             }
         }
