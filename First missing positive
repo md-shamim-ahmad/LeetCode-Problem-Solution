@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int firstMissing(int n, int arr[]){
+	bool isPresent[n + 1] = { false };
+
+	for (int i = 0; i < n; i++) {
+		if (arr[i] > 0 && arr[i] <= n)
+			isPresent[arr[i]] = true;
+	}
+
+	for (int i = 1; i <= n; i++){
+		if (isPresent[i]!=1){
+			return i;
+		}
+   } 
+	return n + 1;
+}
+
+int main(){
+    int n=5;
+    int arr[] = { 1, 10, 2, 3, 4 };
+    cout << firstMissing(n,arr);
+}
