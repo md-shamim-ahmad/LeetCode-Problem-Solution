@@ -4,7 +4,9 @@ public:
         int n = nums.size();
 
         for (int i = 0; i < n; i++) {
-            if (nums[i] <= 0) { nums[i] = n + 2; }
+            if (nums[i] <= 0) {
+                nums[i] = n + 2;
+            }
         }
 
         for (int i = 0; i < n; i++) {
