@@ -10,16 +10,16 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    ListNode *removeNthFromEnd(ListNode *head, int n) {
         ListNode *curr = head, *prev = head;
-        for (int i = 0; i < n; i++) 
-            curr = curr -> next;
-        if (!curr) 
+        for (int i = 0; i < n; i++)
+            curr = curr->next;
+        if (!curr)
             return head->next;
-        while(curr -> next)
-            curr = curr -> next,
-            prev = prev -> next;
-        prev -> next = prev -> next -> next;
+        while (curr->next)
+            curr = curr->next,
+            prev = prev->next;
+        prev->next = prev->next->next;
         return head;
     }
 };

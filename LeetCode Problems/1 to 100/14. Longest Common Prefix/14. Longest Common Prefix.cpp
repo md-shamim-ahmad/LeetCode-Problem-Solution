@@ -11,10 +11,10 @@ public:
         temp->info = info;
         return temp;
     }
-    void insert(node* &head, string s) {
-        node* temp = head;
+    void insert(node *&head, string s) {
+        node *temp = head;
         for (int i = 0; i < s.size(); i++) {
-            int index = (int)s[i] - 'a';
+            int index = (int) s[i] - 'a';
             if (!temp->list[index]) {
                 temp->list[index] = newNode(s[i]);
             }
@@ -23,7 +23,7 @@ public:
         temp->cnt = 1;
     }
     void display(node *root) {
-        if(!root)
+        if (!root)
             return;
         node *temp = root;
         cout << temp->info << " " << temp->cnt << '\n';
@@ -40,7 +40,7 @@ public:
         }
         return cnt;
     }
-    string longestCommonPrefix(vector<string>& strs) {
+    string longestCommonPrefix(vector<string> &strs) {
         node *head = new node();
         for (int i = 0; i < strs.size(); i++) {
             insert(head, strs[i]);
@@ -48,7 +48,7 @@ public:
         node *curr = head;
         string lcp;
         int index;
-        while (!curr->cnt && countChild(curr, index) == 1){
+        while (!curr->cnt && countChild(curr, index) == 1) {
             curr = curr->list[index];
             lcp += 'a' + index;
         }

@@ -10,15 +10,14 @@ class Solution {
             maxleft[i] = m;
         }
 
-        m = A[N-1];
-        for (int i = N-1; i >= 0; --i) {
+        m = A[N - 1];
+        for (int i = N - 1; i >= 0; --i) {
             m = Math.min(m, A[i]);
             minright[i] = m;
         }
 
         for (int i = 1; i < N; ++i)
-            if (maxleft[i-1] <= minright[i])
-                return i;
+            if (maxleft[i - 1] <= minright[i]) return i;
 
         throw null;
     }

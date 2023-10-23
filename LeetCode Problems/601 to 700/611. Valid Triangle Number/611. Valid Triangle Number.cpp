@@ -1,9 +1,9 @@
 class Solution {
 public:
-    int triangleNumber(vector<int>& nums) {
+    int triangleNumber(vector<int> &nums) {
         sort(nums.begin(), nums.end());
         int cnt = 0, n = nums.size();
-        for (int i = 0; i < n; i++) {            
+        for (int i = 0; i < n; i++) {
             if (nums[i] == 0)
                 continue;
             int k = i + 2;
@@ -13,7 +13,7 @@ public:
                     k++;
                 cnt += k - j - 1;
             }
-        }        
+        }
         return cnt;
     }
 };
