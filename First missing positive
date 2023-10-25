@@ -1,4 +1,4 @@
-#41. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+# [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
 
 <div class="xFUwe" data-track-load="description_content"><p>Given an unsorted integer array <code>nums</code>, return the smallest missing positive integer.</p>
 
