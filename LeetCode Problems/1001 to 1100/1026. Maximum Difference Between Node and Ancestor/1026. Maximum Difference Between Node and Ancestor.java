@@ -15,8 +15,7 @@
  */
 class Solution {
     private int helper(TreeNode root, int mn, int mx) {
-        if(root == null)
-            return mx - mn;
+        if (root == null) return mx - mn;
         mn = Math.min(mn, root.val);
         mx = Math.max(mx, root.val);
         return Math.max(helper(root.left, mn, mx), helper(root.right, mn, mx));
