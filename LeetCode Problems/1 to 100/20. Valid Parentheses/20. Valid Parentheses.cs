@@ -1,36 +1,32 @@
-public class Solution {
+public class Solution
+{
 
-    Dictionary<Char, Char> parenthesisDictionary = new Dictionary<Char, Char>()
-    {
+    Dictionary<Char, Char> parenthesisDictionary = new Dictionary<Char, Char>() {
         { '{', '}' },
         { '(', ')' },
         { '[', ']' },
     };
 
-    public bool IsValid(string s) {
-       
-        Stack<Char> parenthesisChecker = new Stack<Char>();
+    public bool IsValid(string s)
+    {
+        Stack<Char> paranthesisChecker = new Stack<Char>();
         for (int i = 0; i < s.Length; i++)
         {
-            if(parenthesisChecker.Count > 0)
+            if (paranthesisChecker.Count > 0)
             {
-                Char top = parenthesisChecker.Peek();
+                Char top = paranthesisChecker.Peek();
 
                 if (parenthesisDictionary.ContainsKey(top) && parenthesisDictionary[top] == s[i])
                 {
-                    parenthesisChecker.Pop();
+                    paranthesisChecker.Pop();
+                } else {
+                    paranthesisChecker.Push(s[i]);
                 }
-                else
-                {
-                    parenthesisChecker.Push(s[i]);
-                }
-            }
-            else
-            {
-                parenthesisChecker.Push(s[i]);
+            } else {
+                paranthesisChecker.Push(s[i]);
             }
         }
 
-        return parenthesisChecker.Count == 0 ? true : false;
+        return paranthesisChecker.Count == 0 ? true : false;
     }
 }
