@@ -1,5 +1,4 @@
-public class Solution
-{
+public class Solution {
 
     Dictionary<Char, Char> parenthesisDictionary = new Dictionary<Char, Char>() {
         { '{', '}' },
