@@ -1,4 +1,5 @@
-# [2. Add Two Numbers](https://leetcode.com/problems/sum-of-two-integers/)
+# [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+
 <div><p>Given two integers <code>a</code> and <code>b</code>, return <em>the sum of the two integers without using the operators</em> <code>+</code> <em>and</em> <code>-</code>.</p>
 
 <p>&nbsp;</p>
