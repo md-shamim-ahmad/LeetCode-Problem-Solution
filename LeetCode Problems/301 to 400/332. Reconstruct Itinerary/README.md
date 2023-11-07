@@ -1,6 +1,5 @@
+# [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 
-# [332. Reconstruct Itinerary
-](https://leetcode.com/problems/reconstruct-itinerary/)
 <div class="xFUwe"  data-track-load="description_content"><p>You are given a list of airline <code>tickets</code> where <code>tickets[i] = [from<sub>i</sub>, to<sub>i</sub>]</code> represent the departure and the arrival airports of one flight. Reconstruct the itinerary in order and return it.</p>
 
 <p>All of the tickets belong to a man who departs from <code>"JFK"</code>, thus, the itinerary must begin with <code>"JFK"</code>. If there are multiple valid itineraries, you should return the itinerary that has the smallest lexical order when read as a single string.</p>
