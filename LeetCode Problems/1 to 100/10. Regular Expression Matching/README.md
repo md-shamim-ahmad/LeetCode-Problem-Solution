@@ -1,4 +1,4 @@
-[10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/).
+# [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 <div class="elfjS" data-track-load="description_content"><p>Given an input string <code>s</code>&nbsp;and a pattern <code>p</code>, implement regular expression matching with support for <code>'.'</code> and <code>'*'</code> where:</p>
 
 <ul>
