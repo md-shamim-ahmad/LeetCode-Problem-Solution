@@ -1,7 +1,7 @@
 name: "Feature Request"
 description: "Suggest an idea for this project"
 title: "[Problem Name] <title>"
-labels: ["enhancement"]
+labels: ["enhancement","hacktoberfest-accepted"]
 body:
   - type: textarea
     id: description
