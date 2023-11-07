@@ -9,7 +9,6 @@ class Solution {
             } else {
                 index++;
             }
-
         }
         int ans = 1;
 
@@ -17,9 +16,7 @@ class Solution {
             if (nums[i] != i + 1) {
 
                 return i + 1;
-
             }
-
         }
         return nums.length + 1;
     }
