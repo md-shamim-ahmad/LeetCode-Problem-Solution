@@ -10,18 +10,15 @@
  * };
  */
 class Solution {
-private:
     vector<int> arr;
-    void inorder(TreeNode *root) {
-        if (root == nullptr) return;
-        inorder(root->left);
-        arr.push_back(root->val);
-        inorder(root->right);
-    }
 
 public:
     vector<int> inorderTraversal(TreeNode *root) {
-        inorder(root);
+        if (root == nullptr)
+            return arr;
+        inorderTraversal(root->left);
+        arr.push_back(root->val);
+        inorderTraversal(root->right);
         return arr;
     }
 };
