@@ -1,4 +1,4 @@
-# [137. Single Number II](https://leetcode.com/problems/single-number-ii/)
+# [136. Single Number II](https://leetcode.com/problems/single-number-ii/)
 
 Given an integer array ```nums``` where every element appears **three times** except for one, which appears **exactly once**. <i>Find the single element and return it.</i>
 
