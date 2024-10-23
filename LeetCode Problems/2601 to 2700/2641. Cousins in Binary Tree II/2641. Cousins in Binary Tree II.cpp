@@ -3,27 +3,27 @@ public:
     vector<int> sums;
     deque<TreeNode*> dq;
 
-    void bfs(TreeNode* root){
+    void bfs(TreeNode* root) {
         dq.push_back(root);
         int lev = 0;
 
-        while(!dq.empty()){
+        while (!dq.empty()) {
             int n = dq.size();
-            while(n--){
+            while (n--) {
                 TreeNode* node = dq.front();
                 int sibSum = 0;
-                if(node->left){
+                if (node->left) {
                     sibSum += node->left->val;
                 }
-                if(node -> right){
+                if (node->right) {
                     sibSum += node->right->val;
                 }
-                if(node -> left){
-                    node->left->val = sums[lev+1] - sibSum;
+                if (node->left) {
+                    node->left->val = sums[lev + 1] - sibSum;
                     dq.push_back(node->left);
                 }
-                if(node->right){
-                    node->right->val = sums[lev+1] - sibSum;
+                if (node->right) {
+                    node->right->val = sums[lev + 1] - sibSum;
                     dq.push_back(node->right);
                 }
                 dq.pop_front();
@@ -32,16 +32,15 @@ public:
         }
     }
 
-    void dfs(TreeNode* root, int lev){
-        if(root == nullptr) return;
-        if(sums.size() > lev){
+    void dfs(TreeNode* root, int lev) {
+        if (root == nullptr) return;
+        if (sums.size() > lev) {
             sums[lev] += root->val;
-        }
-        else{
+        } else {
             sums.push_back(root->val);
         }
-        dfs(root->left, lev+1);
-        dfs(root->right, lev+1);
+        dfs(root->left, lev + 1);
+        dfs(root->right, lev + 1);
     }
 
     TreeNode* replaceValueInTree(TreeNode* root) {
